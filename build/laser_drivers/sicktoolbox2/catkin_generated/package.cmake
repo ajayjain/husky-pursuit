@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "sicktoolbox2")
+set(sicktoolbox2_MAINTAINER "yanma <yanma@clearpathrobotics.com>")
+set(sicktoolbox2_DEPRECATED "")
+set(sicktoolbox2_VERSION "0.0.0")
+set(sicktoolbox2_BUILD_DEPENDS )
+set(sicktoolbox2_RUN_DEPENDS )
+set(sicktoolbox2_BUILDTOOL_DEPENDS "catkin")

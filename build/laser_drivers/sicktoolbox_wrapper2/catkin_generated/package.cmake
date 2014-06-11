@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "sicktoolbox_wrapper2")
+set(sicktoolbox_wrapper2_MAINTAINER "yanma <yanma@clearpathrobotics.com>")
+set(sicktoolbox_wrapper2_DEPRECATED "")
+set(sicktoolbox_wrapper2_VERSION "0.0.0")
+set(sicktoolbox_wrapper2_BUILD_DEPENDS "sicktoolbox2" "sensor_msgs" "roscpp")
+set(sicktoolbox_wrapper2_RUN_DEPENDS "sicktoolbox2" "sensor_msgs" "roscpp")
+set(sicktoolbox_wrapper2_BUILDTOOL_DEPENDS "catkin")

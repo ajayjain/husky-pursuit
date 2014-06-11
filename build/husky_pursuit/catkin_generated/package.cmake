@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "husky_pursuit")
+set(husky_pursuit_MAINTAINER "robonurse <robonurse@todo.todo>")
+set(husky_pursuit_DEPRECATED "")
+set(husky_pursuit_VERSION "0.0.0")
+set(husky_pursuit_BUILD_DEPENDS "roscpp" "rospy" "std_msgs")
+set(husky_pursuit_RUN_DEPENDS "roscpp" "rospy" "std_msgs")
+set(husky_pursuit_BUILDTOOL_DEPENDS "catkin")

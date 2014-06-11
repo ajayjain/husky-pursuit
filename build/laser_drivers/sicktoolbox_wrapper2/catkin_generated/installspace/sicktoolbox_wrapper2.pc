@@ -1,0 +1,8 @@
+prefix=/home/robonurse/nps_ws/install
+
+Name: sicktoolbox_wrapper2
+Description: Description of sicktoolbox_wrapper2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robonurse/nps_ws/install/lib 
+Requires: sensor_msgs roscpp sicktoolbox2

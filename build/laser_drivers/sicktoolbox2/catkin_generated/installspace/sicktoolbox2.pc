@@ -1,0 +1,8 @@
+prefix=/home/robonurse/nps_ws/install
+
+Name: sicktoolbox2
+Description: Description of sicktoolbox2
+Version: 0.0.0
+Cflags: -I/home/robonurse/nps_ws/install/include
+Libs: -L/home/robonurse/nps_ws/install/lib -lSickLD -lSickLMS1xx -lSickLMS2xx -lSickLMS5xx
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/robonurse/nps_ws/install
+
+Name: husky_pursuit
+Description: Description of husky_pursuit
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robonurse/nps_ws/install/lib 
+Requires: 
