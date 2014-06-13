@@ -22,6 +22,19 @@ See /usr/share/Leap/README.linux for more information.
 Processing triggers for ureadahead ...
 
 
+Add the LeapSDK to your PYTHONPATH. I add this to my .bashrc:
+    export PYTHONPATH=$PYTHONPATH:$HOME/LeapSDK/lib:$HOME/LeapSDK/lib/x64 # for 64 bit
 
 
-sudo apt-get install ros-hydro-leap-motion
+# sudo apt-get install ros-hydro-leap-motion # not needed anymore
+
+
+
+Using the Leap Motion to control the Husky
+    leapd # one terminal
+    roscore
+    roslaunch husky_pursuit husky_bringup
+    roslaunch husky_pursuit leap_teleop
+
+To monitor Twist velocity commands:
+    rostopic echo /husky/cmd_vel
