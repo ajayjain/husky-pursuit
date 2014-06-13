@@ -86,6 +86,13 @@ IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/robonurse/nps_ws/build/gtest/cmake_install.cmake")
   INCLUDE("/home/robonurse/nps_ws/build/husky_pursuit/cmake_install.cmake")
+  INCLUDE("/home/robonurse/nps_ws/build/scan_tools/laser_ortho_projector/cmake_install.cmake")
+  INCLUDE("/home/robonurse/nps_ws/build/scan_tools/laser_scan_matcher/cmake_install.cmake")
+  INCLUDE("/home/robonurse/nps_ws/build/scan_tools/laser_scan_sparsifier/cmake_install.cmake")
+  INCLUDE("/home/robonurse/nps_ws/build/scan_tools/laser_scan_splitter/cmake_install.cmake")
+  INCLUDE("/home/robonurse/nps_ws/build/scan_tools/ncd_parser/cmake_install.cmake")
+  INCLUDE("/home/robonurse/nps_ws/build/scan_tools/scan_to_cloud_converter/cmake_install.cmake")
+  INCLUDE("/home/robonurse/nps_ws/build/scan_tools/scan_tools/cmake_install.cmake")
   INCLUDE("/home/robonurse/nps_ws/build/laser_drivers/sicktoolbox2/cmake_install.cmake")
   INCLUDE("/home/robonurse/nps_ws/build/laser_drivers/sicktoolbox_wrapper2/cmake_install.cmake")
 
