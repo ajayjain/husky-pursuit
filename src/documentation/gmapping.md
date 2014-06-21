@@ -1,6 +1,6 @@
 <!--
 roscore
-roslaunch husky_pursuit husky_bringup.launch
+roslaunch husky_pursuit bringup.launch
 rosrun tf static_transform_publisher 0 0 0 0 0 0 odom_combined base_footprint 100
 
 Connect joystick

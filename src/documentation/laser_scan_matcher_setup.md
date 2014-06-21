@@ -16,4 +16,4 @@ Extract, and cd into the extracted directory.
 
     ./configure
     make
-    make install
+    sudo make install

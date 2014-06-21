@@ -35,19 +35,6 @@ $ rosrun sicktoolbox_wrapper sicklms
 https://learn.adafruit.com/adafruit-arduino-lesson-13-dc-motors/transistors
 
 
-Hokuyo + rviz
---------
-$ sudo apt-get install ros-hydro-hokuyo-node
-
-
-$ roscore
-$ sudo service husky-core start
-$ roslaunch husky_base base.launch port:=/dev/ttyUSB0
-$ roslaunch husky_description description.launch
-$ roslaunch hokuyo_node hokuyo_test.launch
-$ roslaunch husky_viz view_navigation.launch
-
-
 Gmapping
 -------
 roslaunch husky_navigation gmapping_demo.launch
