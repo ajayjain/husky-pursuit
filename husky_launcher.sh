@@ -1,5 +1,13 @@
-export ROS_ROOT=/home/ros/catkin_ws
+#!/bin/bash
+# Ajay Jain
+
+export ROS_WS=/home/ros/catkin_ws
+
+source $ROS_WS/devel/setup.bash
+
 export PATH=$ROS_ROOT/bin:$PATH
+
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$ROS_WS
 
 export ROS_MASTER_URI=http://192.168.1.125:11311
 export ROS_HOSTNAME=192.168.1.125
