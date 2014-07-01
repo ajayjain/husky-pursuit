@@ -49,10 +49,13 @@ echo "Pre-ros"
 ps -aux
 
 echo "Installing ros"
-apt-get install -y ros-hydro-desktop-full ros-hydro-usb-cam libusb-1.0-0-dev
+sudo apt-get install -y ros-hydro-desktop-full
 
 echo "Installing Husky ros packages"
-sudo apt-get install ros-hydro-husky-robot
+sudo apt-get install -y ros-hydro-husky-robot
+
+echo "Installing ros packages"
+sudo apt-get install ros-hydro-usb-cam libusb-1.0-0-dev ros-hydro-hokuyo-node
 
 echo "Post ros"
 ps -aux
