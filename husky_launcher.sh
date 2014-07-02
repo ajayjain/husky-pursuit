@@ -11,8 +11,12 @@ export PATH=$ROS_ROOT/bin:$PATH
 
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$ROS_WS
 
-export ROS_MASTER_URI=http://192.168.1.125:11311
-export ROS_HOSTNAME=192.168.1.125
+# export ROS_MASTER_URI=http://192.168.1.125:11311
+# export ROS_HOSTNAME=192.168.1.125
+
+export ROS_MASTER_URI=http://$(hostname -I):11311
+export ROS_HOSTNAME=$(hostname -I)
+
 
 #if [ $(tty) == "/dev/tty2" ]; then
 #	echo "Automatically logged in"
